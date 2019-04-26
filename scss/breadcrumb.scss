@@ -1,10 +1,12 @@
 /* Home Banner Area css
 ============================================================================================ */
+
+
 .home_banner_area{
 	z-index: 1;
-	background-image: -moz-linear-gradient( 0deg, $secondaryColor 0%, rgba($secondaryColor,.8) 100%);
-	background-image: -webkit-linear-gradient( 0deg, $secondaryColor 0%, rgba($secondaryColor,.8) 100%);
-	background-image: -ms-linear-gradient( 0deg, $secondaryColor 0%, rgba($secondaryColor,.8) 100%);
+	background-image: -moz-linear-gradient( 0deg, $secondaryColor 0%, rgba($secondaryColor,.8) 100%) !important;
+	background-image: -webkit-linear-gradient( 0deg, $secondaryColor 0%, rgba($secondaryColor,.8) 100%) !important;
+	background-image: -ms-linear-gradient( 0deg, $secondaryColor 0%, rgba($secondaryColor,.8) 100%) !important;
 	.banner_inner{
 		width: 100%;
 		.home_left_img{
@@ -153,6 +155,11 @@
 				}
 			}
 		}
+	}
+}
+body{
+	section:nth-child(2n)  {
+		background: rgba($baseColor,.2);
 	}
 }
 

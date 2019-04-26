@@ -299,9 +299,9 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background-image: -moz-linear-gradient(0deg, #2781b6 0%, rgba(39, 129, 182, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, #2781b6 0%, rgba(39, 129, 182, 0.8) 100%);
-  background-image: -ms-linear-gradient(0deg, #2781b6 0%, rgba(39, 129, 182, 0.8) 100%); }
+  background-image: -moz-linear-gradient(0deg, #2781b6 0%, rgba(39, 129, 182, 0.8) 100%) !important;
+  background-image: -webkit-linear-gradient(0deg, #2781b6 0%, rgba(39, 129, 182, 0.8) 100%) !important;
+  background-image: -ms-linear-gradient(0deg, #2781b6 0%, rgba(39, 129, 182, 0.8) 100%) !important; }
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_left_img {
@@ -413,6 +413,9 @@ button:focus {
           margin-right: 0px; }
           .banner_area .banner_inner .banner_content .page_link a:last-child:before {
             display: none; }
+
+body section:nth-child(2n) {
+  background: rgba(33, 78, 121, 0.2); }
 
 /* End Home Banner Area css
 ============================================================================================ */
@@ -2682,10 +2685,8 @@ h6 {
 ============================================================================================ */
 /* End Work Area css
 ============================================================================================ */
-.made_life_area {
-  background: #edf6ff; }
-  .made_life_area.made_white {
-    background: #fff; }
+.made_life_area.made_white {
+  background: #fff; }
 
 .made_life_inner .nav.nav-tabs {
   border: none;
@@ -2783,8 +2784,7 @@ h6 {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  position: relative;
-  background: #edf6ff; }
+  position: relative; }
   .testimonials_area .owl-prev, .testimonials_area .owl-next {
     position: absolute;
     right: 150px;
@@ -2875,7 +2875,6 @@ h6 {
   border-radius: 5px; }
   .price_item .price_head {
     text-align: center;
-    background: #edf6ff;
     padding: 35px 0px;
     border-bottom: 1px solid #eeeeee; }
     .price_item .price_head h4 {
@@ -2896,7 +2895,6 @@ h6 {
   .price_item .price_footer {
     max-width: 280px;
     margin: 0px auto 40px;
-    background: #edf6ff;
     border-radius: 5px;
     padding-top: 35px;
     padding-bottom: 40px; }
