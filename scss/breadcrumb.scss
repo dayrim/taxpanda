@@ -10,7 +10,7 @@
 	.banner_inner{
 		width: 100%;
 		.home_left_img{
-			padding-top: 230px;
+			padding-top: 200px;
 			padding-bottom: 230px;
 		}
 		.col-lg-5{
@@ -162,6 +162,8 @@ body{
 		background: rgba($baseColor,.2);
 	}
 }
-
+.left-side-image{
+	max-width:80%;
+}
 /* End Home Banner Area css
 ============================================================================================ */
